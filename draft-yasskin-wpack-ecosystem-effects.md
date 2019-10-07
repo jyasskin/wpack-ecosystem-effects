@@ -119,6 +119,14 @@ and not filtered by benefit, harm, or likelihood, follow.
   effectively instantly. It's not clear what ecosystem effects the changes in
   loading speed are likely to have.
 
+# Security Considerations
+
+This document has no security implications.
+
+# IANA Considerations
+
+This document has no actions for IANA.
+
 --- back
 
 # Change Log
