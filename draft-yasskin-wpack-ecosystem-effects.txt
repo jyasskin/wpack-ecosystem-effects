@@ -77,9 +77,11 @@ Table of Contents
    5.  CDNs  . . . . . . . . . . . . . . . . . . . . . . . . . . . .   3
    6.  Content Producers . . . . . . . . . . . . . . . . . . . . . .   4
    7.  Other effects not necessarily related to centralization . . .   4
-   8.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   4
-     8.1.  Informative References  . . . . . . . . . . . . . . . . .   4
-     8.2.  URIs  . . . . . . . . . . . . . . . . . . . . . . . . . .   5
+   8.  Security Considerations . . . . . . . . . . . . . . . . . . .   4
+   9.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
+   10. References  . . . . . . . . . . . . . . . . . . . . . . . . .   4
+     10.1.  Informative References . . . . . . . . . . . . . . . . .   4
+     10.2.  URIs . . . . . . . . . . . . . . . . . . . . . . . . . .   5
    Appendix A.  Change Log . . . . . . . . . . . . . . . . . . . . .   5
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   5
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
@@ -101,8 +103,6 @@ Table of Contents
 
    o  The implementation of any new technology is a smaller fraction of
       a large organization's budget, which pushes toward centralization.
-
-
 
 
 
@@ -200,22 +200,22 @@ Internet-Draft     Ecosystem Effects of Web Packaging       October 2019
       what ecosystem effects the changes in loading speed are likely to
       have.
 
-8.  References
+8.  Security Considerations
 
-8.1.  Informative References
+   This document has no security implications.
+
+9.  IANA Considerations
+
+   This document has no actions for IANA.
+
+10.  References
+
+10.1.  Informative References
 
    [I-D.yasskin-http-origin-signed-responses]
               Yasskin, J., "Signed HTTP Exchanges", draft-yasskin-http-
               origin-signed-responses-07 (work in progress), September
               2019.
-
-   [I-D.yasskin-wpack-bundled-exchanges]
-              Yasskin, J., "Bundled HTTP Exchanges", draft-yasskin-
-              wpack-bundled-exchanges-02 (work in progress), September
-              2019.
-
-
-
 
 
 
@@ -226,7 +226,12 @@ Yasskin                   Expires April 9, 2020                 [Page 4]
 Internet-Draft     Ecosystem Effects of Web Packaging       October 2019
 
 
-8.2.  URIs
+   [I-D.yasskin-wpack-bundled-exchanges]
+              Yasskin, J., "Bundled HTTP Exchanges", draft-yasskin-
+              wpack-bundled-exchanges-02 (work in progress), September
+              2019.
+
+10.2.  URIs
 
    [1] https://www.ietf.org/mailman/listinfo/wpack
 
@@ -251,11 +256,6 @@ Author's Address
    Google
 
    Email: jyasskin@chromium.org
-
-
-
-
-
 
 
 
