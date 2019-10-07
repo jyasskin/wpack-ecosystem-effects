@@ -4,8 +4,8 @@
 
 Network Working Group                                         J. Yasskin
 Internet-Draft                                                    Google
-Intended status: Standards Track                        October 04, 2019
-Expires: April 6, 2020
+Intended status: Informational                          October 07, 2019
+Expires: April 9, 2020
 
 
                    Ecosystem Effects of Web Packaging
@@ -17,6 +17,9 @@ Abstract
    ecosystem.
 
 Note to Readers
+
+   This document has NOT been reviewed widely and probably contains lots
+   of mistakes.
 
    Discussion of this draft takes place on the wpack mailing list
    (wpack@ietf.org), which is archived at
@@ -40,24 +43,24 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on April 6, 2020.
+   This Internet-Draft will expire on April 9, 2020.
 
 Copyright Notice
 
    Copyright (c) 2019 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
-   This document is subject to BCP 78 and the IETF Trust's Legal
-   Provisions Relating to IETF Documents
-   (https://trustee.ietf.org/license-info) in effect on the date of
 
 
 
-Yasskin                   Expires April 6, 2020                 [Page 1]
+Yasskin                   Expires April 9, 2020                 [Page 1]
 
 Internet-Draft     Ecosystem Effects of Web Packaging       October 2019
 
 
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents
+   (https://trustee.ietf.org/license-info) in effect on the date of
    publication of this document.  Please review these documents
    carefully, as they describe your rights and restrictions with respect
    to this document.  Code Components extracted from this document must
@@ -69,14 +72,14 @@ Table of Contents
 
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
    2.  General . . . . . . . . . . . . . . . . . . . . . . . . . . .   2
-   3.  Aggregators . . . . . . . . . . . . . . . . . . . . . . . . .   2
+   3.  Aggregators . . . . . . . . . . . . . . . . . . . . . . . . .   3
    4.  Browsers  . . . . . . . . . . . . . . . . . . . . . . . . . .   3
    5.  CDNs  . . . . . . . . . . . . . . . . . . . . . . . . . . . .   3
    6.  Content Producers . . . . . . . . . . . . . . . . . . . . . .   4
    7.  Other effects not necessarily related to centralization . . .   4
    8.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   4
      8.1.  Informative References  . . . . . . . . . . . . . . . . .   4
-     8.2.  URIs  . . . . . . . . . . . . . . . . . . . . . . . . . .   4
+     8.2.  URIs  . . . . . . . . . . . . . . . . . . . . . . . . . .   5
    Appendix A.  Change Log . . . . . . . . . . . . . . . . . . . . .   5
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   5
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
@@ -99,20 +102,23 @@ Table of Contents
    o  The implementation of any new technology is a smaller fraction of
       a large organization's budget, which pushes toward centralization.
 
+
+
+
+
+
+
+
+Yasskin                   Expires April 9, 2020                 [Page 2]
+
+Internet-Draft     Ecosystem Effects of Web Packaging       October 2019
+
+
 3.  Aggregators
 
    o  Aggregators' primary power comes from ranking: telling people that
       they probably want to visit particular URLs.  That's not affected
       by packaging.
-
-
-
-
-
-Yasskin                   Expires April 6, 2020                 [Page 2]
-
-Internet-Draft     Ecosystem Effects of Web Packaging       October 2019
-
 
    o  Aggregators already rank based on sites' content and technology
       choices. e.g.  Google's promotion of HTTPS sites.  Packaging can
@@ -155,27 +161,27 @@ Internet-Draft     Ecosystem Effects of Web Packaging       October 2019
 
    o  However, CDNs will still be needed to serve URLs that users type
       in, bookmark, or navigate to via same-site links, so there's
+
+
+
+
+Yasskin                   Expires April 9, 2020                 [Page 3]
+
+Internet-Draft     Ecosystem Effects of Web Packaging       October 2019
+
+
       disagreement, even among employees of CDNs, about the likely size
       of this effect.
 
    o  CDNs might be able to acquire even more traffic by offering
       package caches to let smaller sites take advantage of prefetching.
 
-
-
-
-
-Yasskin                   Expires April 6, 2020                 [Page 3]
-
-Internet-Draft     Ecosystem Effects of Web Packaging       October 2019
-
-
 6.  Content Producers
 
    o  If Web Packages become an additional format publishers need to
-      produce (https://xkcd.com/927/), that will advantage the larger
-      publishers who can afford the engineering to maintain lots of
-      formats.  If instead they replace at least 2 of the existing
+      produce (https://xkcd.com/927/ [4]), that will advantage the
+      larger publishers who can afford the engineering to maintain lots
+      of formats.  If instead they replace at least 2 of the existing
       formats (e.g.  AMP, Apple News, Facebook Instant Articles),
       that'll reduce that advantage of larger publishers and contribute
       to decentralization.
@@ -208,6 +214,18 @@ Internet-Draft     Ecosystem Effects of Web Packaging       October 2019
               wpack-bundled-exchanges-02 (work in progress), September
               2019.
 
+
+
+
+
+
+
+
+Yasskin                   Expires April 9, 2020                 [Page 4]
+
+Internet-Draft     Ecosystem Effects of Web Packaging       October 2019
+
+
 8.2.  URIs
 
    [1] https://www.ietf.org/mailman/listinfo/wpack
@@ -216,15 +234,7 @@ Internet-Draft     Ecosystem Effects of Web Packaging       October 2019
 
    [3] https://www.iab.org/activities/workshops/escape-workshop/
 
-
-
-
-
-
-Yasskin                   Expires April 6, 2020                 [Page 4]
-
-Internet-Draft     Ecosystem Effects of Web Packaging       October 2019
-
+   [4] https://xkcd.com/927/
 
 Appendix A.  Change Log
 
@@ -267,14 +277,4 @@ Author's Address
 
 
 
-
-
-
-
-
-
-
-
-
-
-Yasskin                   Expires April 6, 2020                 [Page 5]
+Yasskin                   Expires April 9, 2020                 [Page 5]
