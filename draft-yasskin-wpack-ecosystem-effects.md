@@ -3,7 +3,7 @@ coding: utf-8
 
 title: Ecosystem Effects of Web Packaging
 docname: draft-yasskin-wpack-ecosystem-effects-latest
-category: std
+category: info
 
 ipr: trust200902
 
@@ -21,6 +21,9 @@ author:
 This document analyzes how Web Packaging may affect the web ecosystem.
 
 --- note_Note_to_Readers
+
+This document has NOT been reviewed widely and probably contains lots of
+mistakes.
 
 Discussion of this draft takes place on the wpack mailing list (wpack@ietf.org),
 which is archived at <https://www.ietf.org/mailman/listinfo/wpack>.
@@ -97,7 +100,7 @@ and not filtered by benefit, harm, or likelihood, follow.
 # Content Producers
 
 * If Web Packages become an additional format publishers need to produce
-  (https://xkcd.com/927/), that will advantage the larger publishers who can
+  (<https://xkcd.com/927/>), that will advantage the larger publishers who can
   afford the engineering to maintain lots of formats. If instead they replace at
   least 2 of the existing formats (e.g. AMP, Apple News, Facebook Instant
   Articles), that'll reduce that advantage of larger publishers and contribute
